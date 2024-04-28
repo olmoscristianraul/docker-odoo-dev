@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurador de Python: Conexión remota",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 8888
+            },
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/custom_addons",
+                    "remoteRoot": "/var/lib/odoo/custom_addons"
+                },
+                {
+                    "localRoot": "/opt/dev/docker-odoo-dev/odoo-16.0/addons",
+                    "remoteRoot": "/var/lib/odoo/odoo/addons"
+                }
+            ]
+        }
+    ]
+}

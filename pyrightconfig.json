@@ -1,0 +1,8 @@
+{
+    "stubPath": "/opt/dev/docker-odoo-dev/odoo-stubs-16.0",
+    "extraPaths": [
+        "/opt/dev/docker-odoo-dev/odoo-16.0",
+        "/opt/dev/docker-odoo-dev/odoo-16.0/addons",
+        "/opt/dev/docker-odoo-dev/custom_addons"
+    ]
+}
